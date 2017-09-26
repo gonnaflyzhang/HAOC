@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mainMenu>
+  <menuBar>
+    <subMenu id="haoc_menu">
+      <label>QQ-ICE</label>
+
+      <scriptItem>
+        <label>HAOC</label>
+        <scriptArgs>haoc</scriptArgs>
+        <scriptPath>$HAOCROOTPATH/menu_scripts/QQICEMenus.py</scriptPath>
+      </scriptItem>
+
+      <separatorItem/>
+
+      <scriptItem id="h.haoc_about">
+        <label>About Author</label>
+        <scriptPath>$HAOCROOTPATH/menu_scripts/QQICEMenus.py</scriptPath>
+        <scriptArgs>about_author</scriptArgs>
+      </scriptItem>
+
+    </subMenu>
+  </menuBar>
+</mainMenu>
